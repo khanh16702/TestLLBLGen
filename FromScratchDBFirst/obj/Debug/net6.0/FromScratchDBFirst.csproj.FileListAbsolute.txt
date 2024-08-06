@@ -1,0 +1,12 @@
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\bin\Debug\net6.0\FromScratchDBFirst.deps.json
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\bin\Debug\net6.0\FromScratchDBFirst.dll
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\bin\Debug\net6.0\FromScratchDBFirst.pdb
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\FromScratchDBFirst.csproj.AssemblyReference.cache
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\FromScratchDBFirst.GeneratedMSBuildEditorConfig.editorconfig
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\FromScratchDBFirst.AssemblyInfoInputs.cache
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\FromScratchDBFirst.AssemblyInfo.cs
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\FromScratchDBFirst.csproj.CoreCompileInputs.cache
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\FromScratchDBFirst.dll
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\refint\FromScratchDBFirst.dll
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\FromScratchDBFirst.pdb
+D:\visualstudio-code\test\TestLLBL_API\FromScratchDBFirst\obj\Debug\net6.0\ref\FromScratchDBFirst.dll

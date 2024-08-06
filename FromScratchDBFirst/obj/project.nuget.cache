@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+bbjJl3mBO/+46XAa/aeipCElqxqxzpGzOca/zosGiVWAF+rihoFVFv4DgUptoKDv3ZZ5Eh7PeH0wqAPxfCESA==",
+  "success": true,
+  "projectFilePath": "D:\\visualstudio-code\\test\\TestLLBL_API\\FromScratchDBFirst\\FromScratchDBFirst.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\sd.llblgen.pro.dqe.sqlserver\\5.11.2\\sd.llblgen.pro.dqe.sqlserver.5.11.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\sd.llblgen.pro.ormsupportclasses\\5.11.2\\sd.llblgen.pro.ormsupportclasses.5.11.2.nupkg.sha512"
+  ],
+  "logs": []
+}

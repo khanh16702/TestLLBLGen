@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FromScratchDBFirst/1.0.0": {
+        "dependencies": {
+          "SD.LLBLGen.Pro.DQE.SqlServer": "5.11.2",
+          "SD.LLBLGen.Pro.ORMSupportClasses": "5.11.2"
+        },
+        "runtime": {
+          "FromScratchDBFirst.dll": {}
+        }
+      },
+      "SD.LLBLGen.Pro.DQE.SqlServer/5.11.2": {
+        "dependencies": {
+          "SD.LLBLGen.Pro.ORMSupportClasses": "5.11.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SD.LLBLGen.Pro.DQE.SqlServer.dll": {
+            "assemblyVersion": "5.11.0.0",
+            "fileVersion": "5.11.2.0"
+          }
+        }
+      },
+      "SD.LLBLGen.Pro.ORMSupportClasses/5.11.2": {
+        "runtime": {
+          "lib/netstandard2.0/SD.LLBLGen.Pro.ORMSupportClasses.dll": {
+            "assemblyVersion": "5.11.0.0",
+            "fileVersion": "5.11.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FromScratchDBFirst/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SD.LLBLGen.Pro.DQE.SqlServer/5.11.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8Jz2kWicU4wLtNaPAJqQQJ2b4hC6dfkTqEZGtAdbIMCzQkxdlyOlTZYod33HmbZMmOftVp9Zkb08RNuHp1twzg==",
+      "path": "sd.llblgen.pro.dqe.sqlserver/5.11.2",
+      "hashPath": "sd.llblgen.pro.dqe.sqlserver.5.11.2.nupkg.sha512"
+    },
+    "SD.LLBLGen.Pro.ORMSupportClasses/5.11.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0On4vUwHIUbcVWCu3o6pdK+ftL4Vr2JdiWfuNOkwinB4QZVi1oL5CUAZ/+qlOmX/DfvBa3HI9T7S/Wx+GgOKg==",
+      "path": "sd.llblgen.pro.ormsupportclasses/5.11.2",
+      "hashPath": "sd.llblgen.pro.ormsupportclasses.5.11.2.nupkg.sha512"
+    }
+  }
+}

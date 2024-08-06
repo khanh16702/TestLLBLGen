@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SD.LLBLGen.Pro.DQE.SqlServer/5.11.2": {
+        "type": "package",
+        "dependencies": {
+          "SD.LLBLGen.Pro.ORMSupportClasses": "[5.11.2]"
+        },
+        "compile": {
+          "lib/netstandard2.0/SD.LLBLGen.Pro.DQE.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SD.LLBLGen.Pro.DQE.SqlServer.dll": {}
+        }
+      },
+      "SD.LLBLGen.Pro.ORMSupportClasses/5.11.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SD.LLBLGen.Pro.ORMSupportClasses.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SD.LLBLGen.Pro.ORMSupportClasses.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SD.LLBLGen.Pro.DQE.SqlServer/5.11.2": {
+      "sha512": "8Jz2kWicU4wLtNaPAJqQQJ2b4hC6dfkTqEZGtAdbIMCzQkxdlyOlTZYod33HmbZMmOftVp9Zkb08RNuHp1twzg==",
+      "type": "package",
+      "path": "sd.llblgen.pro.dqe.sqlserver/5.11.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/SD.LLBLGen.Pro.DQE.SqlServer.dll",
+        "lib/netstandard2.0/SD.LLBLGen.Pro.DQE.SqlServer.dll",
+        "sd.llblgen.pro.dqe.sqlserver.5.11.2.nupkg.sha512",
+        "sd.llblgen.pro.dqe.sqlserver.nuspec"
+      ]
+    },
+    "SD.LLBLGen.Pro.ORMSupportClasses/5.11.2": {
+      "sha512": "x0On4vUwHIUbcVWCu3o6pdK+ftL4Vr2JdiWfuNOkwinB4QZVi1oL5CUAZ/+qlOmX/DfvBa3HI9T7S/Wx+GgOKg==",
+      "type": "package",
+      "path": "sd.llblgen.pro.ormsupportclasses/5.11.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/SD.LLBLGen.Pro.ORMSupportClasses.dll",
+        "lib/net452/SD.LLBLGen.Pro.ORMSupportClasses.xml",
+        "lib/netstandard2.0/SD.LLBLGen.Pro.ORMSupportClasses.dll",
+        "lib/netstandard2.0/SD.LLBLGen.Pro.ORMSupportClasses.xml",
+        "sd.llblgen.pro.ormsupportclasses.5.11.2.nupkg.sha512",
+        "sd.llblgen.pro.ormsupportclasses.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SD.LLBLGen.Pro.DQE.SqlServer >= 5.11.2",
+      "SD.LLBLGen.Pro.ORMSupportClasses >= 5.11.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\visualstudio-code\\test\\TestLLBL_API\\FromScratchDBFirst\\FromScratchDBFirst.csproj",
+      "projectName": "FromScratchDBFirst",
+      "projectPath": "D:\\visualstudio-code\\test\\TestLLBL_API\\FromScratchDBFirst\\FromScratchDBFirst.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\visualstudio-code\\test\\TestLLBL_API\\FromScratchDBFirst\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "SD.LLBLGen.Pro.DQE.SqlServer": {
+            "target": "Package",
+            "version": "[5.11.2, )"
+          },
+          "SD.LLBLGen.Pro.ORMSupportClasses": {
+            "target": "Package",
+            "version": "[5.11.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
